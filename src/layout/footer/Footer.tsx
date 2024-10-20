@@ -6,32 +6,32 @@ import { FlexWrapper } from '../../components/FlexWrapper';
 export const Footer = () => {
     return (
         <StyledFooter>
-            <Name>Dzmitry</Name>
             <FlexWrapper direction={"column"} align={"center"}>
+            <Name>Svetlana</Name>
                 <SocialList>
                     <SocialItem>
                         <SocialLink>
-                        <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"instagram"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"instagram"}/>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
                         <SocialLink>
-                        <Icon iconId={"telegram"}/>
+                             <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"telegram"}/>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
                         <SocialLink>
-                        <Icon iconId={"vk"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"vk"}/>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
                         <SocialLink>
-                        <Icon iconId={"instagram"}/>
+                            <Icon height={"21px"} width={"21px"} viewBox={"0 0 21px 21px"} iconId={"instagram"}/>
                         </SocialLink>
                     </SocialItem>
-                </SocialList>  
-            </FlexWrapper>                  
+                </SocialList>                  
             <Copyright>© 2023 Svetlana Dyablo, All Rights Reserved.</Copyright>
+            </FlexWrapper>  
         </StyledFooter>
     );
 };
